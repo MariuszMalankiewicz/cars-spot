@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
+      colors: {
+        'btn-blue': '#0147FF',
+        'white': '#F7F7F7',
+        'black': '#282828',
+      },
+    },
   },
   plugins: [],
 }
