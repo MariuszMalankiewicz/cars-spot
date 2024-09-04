@@ -8,11 +8,15 @@ export default {
     extend: {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
+        bebaszNeue: ['Bebas Neue', 'sans-serif'],
+        robotoCondensed: ['Roboto Condensed', 'sans-serif'],
+        robotoFlex: [' Roboto Flex', 'sans-serif'],
       },
       colors: {
-        'btn-blue': '#0147FF',
+        'blue': '#0147FF',
         'white': '#F7F7F7',
         'black': '#282828',
+        'blueGreen': '#1F4D60',
       },
     },
   },
