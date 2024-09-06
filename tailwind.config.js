@@ -14,9 +14,11 @@ export default {
       },
       colors: {
         'blue': '#0147FF',
+        'white-top': '#FFFFFF',
         'white': '#F7F7F7',
         'black': '#282828',
         'blueGreen': '#1F4D60',
+        'gray': '#F1F1F1',
       },
     },
   },
