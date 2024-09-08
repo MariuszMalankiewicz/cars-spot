@@ -4,6 +4,7 @@
   import Headers from '../components/layouts/Headers.vue'
   import Galery from '../components/layouts/Galery.vue'
   import Seo from '../components/layouts/SEO/Seo.vue'
+  import Footer from '../components/layouts/Footer.vue'
 </script>
 
 <template>
@@ -14,6 +15,7 @@
       <Headers/>
       <Galery/>
       <Seo/>
+      <Footer/>
     </main>
   </div>
 
