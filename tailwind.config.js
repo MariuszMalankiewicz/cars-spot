@@ -19,6 +19,7 @@ export default {
         btn: {
           primary: '#0147FF',
           secondary: '#F1F1F1',
+          muted: '#EDEDED',
         },
 
         'info': '#0147FF',

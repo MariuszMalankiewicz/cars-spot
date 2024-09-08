@@ -1,5 +1,5 @@
 <script setup>
-  import NavDots from '../Reuseable/NavDots.vue'
+  import NavDots from '../Reuseable/NavDots/NavDots.vue'
 </script>
 
 <template>

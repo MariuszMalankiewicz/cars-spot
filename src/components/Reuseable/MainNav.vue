@@ -5,8 +5,8 @@
                 <img class="mt-[0.79px] mx-auto sm:mx-0" src="../../assets/Group 255.png" alt="logo called cars spot">
             </div>
             <div class="flex gap-[24px] mt-2 mb-2 sm:mt-0 sm:mb-0">
-                <p class="font-roboto font-normal text-[14px] leading-[24px] text-center text-dark">Galeria zdjęć</p>
-                <p class="font-roboto font-normal text-[16px] leading-[24px] text-center text-dark">FaQ</p>
+                <p class="font-roboto font-normal text-[14px] leading-[24px] text-center cursor-pointer text-dark">Galeria zdjęć</p>
+                <p class="font-roboto font-normal text-[16px] leading-[24px] text-center cursor-pointer text-dark">FaQ</p>
             </div>
             <div class="flex gap-[10px] justify-center sm:justify-end">
                 <button class="rounded-[8px] py-[10px] px-[18px] bg-btn-primary">

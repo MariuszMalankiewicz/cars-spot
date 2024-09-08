@@ -18,8 +18,5 @@
       <Footer/>
     </main>
   </div>
-
-        
-  
 </template>
   

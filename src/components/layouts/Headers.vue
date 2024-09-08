@@ -9,9 +9,9 @@
         </div>
         <nav class="flex gap-[26px] sm:gap-[48px] text-start">
           <div class="border-b-[1px] border-btn-primary">
-            <a class="left-[2px] font-robotoFlex font-semibold text-[12px] sm:text-[15px] leading-[22.5px] tracking-[-2%] text-btn-primary">Samochody osobowe</a>
+            <a class="left-[2px] font-robotoFlex font-semibold text-[12px] sm:text-[15px] leading-[22.5px] tracking-[-2%] text-btn-primary cursor-pointer">Samochody osobowe</a>
           </div>
-          <a class="font-robotoFlex font-normal text-[12px] sm:text-[15px] leading-[22.5px] tracking-[-2%] text-dark">Samochody dostawcze</a>
+          <a class="font-robotoFlex font-normal text-[12px] sm:text-[15px] leading-[22.5px] tracking-[-2%] text-dark cursor-pointer">Samochody dostawcze</a>
         </nav>
       </div>
   </section>
