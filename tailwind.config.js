@@ -13,12 +13,41 @@ export default {
         robotoFlex: [' Roboto Flex', 'sans-serif'],
       },
       colors: {
-        'blue': '#0147FF',
-        'white-top': '#FFFFFF',
-        'white': '#F7F7F7',
-        'black': '#282828',
-        'blueGreen': '#1F4D60',
-        'gray': '#F1F1F1',
+        //--- background---
+        // White Smoke
+        'bg-primary': '#F7F7F7',
+        // Nero
+        'bg-secondary': '#282828',
+
+        // ---btn background
+        // Navy Blue
+        'bg-btn-primary': '#0147FF',
+        // White Smoke
+        'bg-btn-secondary': '#F1F1F1',
+
+        // ---Decoration---
+        // Astronaut Blue
+        'bg-decoration-primary': '#1F4D60',
+
+        // ---text---
+        // Nero 
+        'text-primary': '#282828',
+        // White
+        'text-secondary': '#FFFFFF',
+        // Navy Blue
+        'text-tertiary': '#0147FF',
+        // Maire
+        'text-quaternary': '#1D1D1B',
+        // Black
+        'text-fiverow': '#000000',
+
+        // ---btn text
+        // White Smoke
+        'btn-text-primary': '#F7F7F7',
+        // Navy Blue 
+        'btn-text-secondary': '#0147FF',
+        // White
+        'btn-text-teritiary': '#FFFFFF',
       },
     },
   },

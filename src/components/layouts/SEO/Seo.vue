@@ -4,7 +4,7 @@ import SeoElement from '../SEO/SeoElement.vue'
 
 <template>
     <!-- SEO -->
-    <section class="h-[361px] flex justify-center p-[88px] gap-[80px] bg-black">
+    <section class="flex justify-center p-[88px] gap-[80px] bg-bg-secondary">
         <SeoElement/>
         <SeoElement/>
     </section>
