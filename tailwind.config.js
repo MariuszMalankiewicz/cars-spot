@@ -7,10 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
+        robotoFlex: ['robotoFlex', 'sans-serif'],
+        robotoCondensed: ['robotoCondensed', 'sans-serif'],
         bebaszNeue: ['Bebas Neue', 'sans-serif'],
-        robotoCondensed: ['Roboto Condensed', 'sans-serif'],
-        robotoFlex: [' Roboto Flex', 'sans-serif'],
       },
       colors: {
         'light': '#F7F7F7',

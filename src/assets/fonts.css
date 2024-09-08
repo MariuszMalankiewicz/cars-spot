@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'robotoFlex';
+    font-family: 'robotoCondensed';
+    font-family: 'bebaszNeue';
+
+    src:url('@/assets/fonts/RobotoFlex-Regular.ttf') format('ttf');
+    src:url('@/assets/fonts/RobotoCondensed-Regular.ttf') format('ttf');
+    src:url('@/assets/fonts/BebasNeue-Regular.ttf') format('ttf');
+
+    font-weight: normal;
+    font-style: bold;
+}

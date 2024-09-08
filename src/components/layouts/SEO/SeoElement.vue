@@ -4,7 +4,7 @@
         <div class="flex flex-col gap-[24px]">
             <p class="font-robotoCondensed font-normal text-[14px] leading-[21px] text-light">Mauris varius ipsum mauris, rutrum lobortis magna efficitur a. Donec egestas, nisl vehicula feugiat ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et  [...]</p>
             <button class="w-[58.73px] h-[27px] border-b-[1.5px] pb-[6px] flex gap-[6px]">
-                <p class="font-RobotoCondensed font-normal text-[14px] leading-[21px] text-btn-secondary">Rozwiń</p>
+                <p class="font-robotoCondensed font-normal text-[14px] leading-[21px] text-btn-secondary">Rozwiń</p>
                 <img class="mt-[3px] text-btn-text-teritiary" src="../../../assets/imgs/-_.png" alt="arrow down">
             </button>
         </div>
