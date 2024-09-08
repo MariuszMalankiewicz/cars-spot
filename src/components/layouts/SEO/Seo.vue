@@ -3,8 +3,7 @@ import SeoElement from '../SEO/SeoElement.vue'
 </script>
 
 <template>
-    <!-- SEO -->
-    <section class="flex justify-center p-[88px] gap-[80px] bg-bg-secondary">
+    <section class="flex flex-wrap justify-center py-[88px] gap-[80px] bg-dark">
         <SeoElement/>
         <SeoElement/>
     </section>

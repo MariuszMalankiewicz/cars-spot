@@ -4,19 +4,19 @@
           <img class="w-[659px] h-[668.05px]" src="../../assets/Subtract.png">
         </div>
         <div class="mx-auto w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col gap-[48px] relative z-10">
-          <div class="w-full xl:w-[1200px] flex flex-col gap-[32px]">
-            <h1 class="w-[50%] sm:w-full xl:w-[1120px] font-bebaszNeue font-semibold text-[50px] md:text-[60px] lg:text-[70px] xl:text-[76.29px] leading-[83.92px] tracking-[-4px] lg:tracking-[-6px] xl:tracking-[-8px] text-text-primary uppercase">Sprzedajemy samochody z europy</h1>
-            <p class="w-full h-[48px] font-robotoCondensed font-normal w-[400px] text-[16px] leading-[24px] text-text-primary">Kup komfortowy pojazd, aby każda podróż 
+          <div class="flex flex-col gap-[32px]">
+            <h1 class="max-w-[940px] font-bebaszNeue font-semibold text-[45px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[76.29px] leading-[83.92px] tracking-[-4px] lg:tracking-[-6px] xl:tracking-[-8px] text-dark uppercase">Sprzedajemy samochody z europy</h1>
+            <p class="h-[48px] font-robotoCondensed font-normal text-[16px] leading-[24px] text-dark">Kup komfortowy pojazd, aby każda podróż 
               <span class="block">była wyjątkowym przeżyciem.</span></p>
           </div>
           <div class="h-[47px] flex gap-[12px] sm:gap-[24px] ">
-            <button class="w-[148px] h-[47px] rounded-[8px] bg-bg-btn-primary"><p class="h-[23px] font-robotoFlex font-semibold text-[15px] leading-[22.5px] tracking-[-2%] text-center text-text-secondary">Zobacz zdjęcia</p></button>
-            <button class="w-[158px] h-[47px] border-[1px]  border-bg-btn-primary rounded-[8px]"><p class="h-[23px] font-robotoFlex font-semibold text-[15px] leading-[22.5px] tracking-[-2%] text-center text-btn-text-secondary">Zadzwoń do nas</p></button>
+            <button class="w-[148px] h-[47px] rounded-[8px] bg-btn-primary"><p class="h-[23px] font-robotoFlex font-semibold text-[15px] leading-[22.5px] tracking-[-2%] text-center text-btn-secondary">Zobacz zdjęcia</p></button>
+            <button class="w-[158px] h-[47px] border-[1px]  border-btn-primary bg-light rounded-[8px]"><p class="h-[23px] font-robotoFlex font-semibold text-[15px] leading-[22.5px] tracking-[-2%] text-center text-btn-primary">Zadzwoń do nas</p></button>
           </div>
         </div>
         <div class="w-[700px] lg:w-[900px] xl:w-[1200px] 2xl:w-[1450px] h-[404.37px] absolute top-[45%] right-[0%] overflow-hidden">
           <img class="w-[1064px] h-[404.37px] absolute top-[0%] sm:top-[0%] right-[-30%] sm:right-[-25%] md:right-0" src="../../assets/Hero.png" alt="hero img 3 cars">
-          <div class="w-[105px] sm:w-[95px] md:w-[105px] lg:w-[130px] xl:w-[156px] h-[85px] rounded-tl-full absolute top-[13%] right-[6%] sm:right-[12%] md:right-[36%] xl:right-[31%] 2xl:right-[26%] bg-blueGreen/30"></div>
+          <div class="w-[105px] sm:w-[95px] md:w-[105px] lg:w-[130px] xl:w-[156px] h-[85px] rounded-tl-full absolute top-[13%] right-[6%] sm:right-[12%] md:right-[36%] xl:right-[31%] 2xl:right-[26%] bg-[#1F4D60]/30"></div>
         </div>
     </section>
 </template>

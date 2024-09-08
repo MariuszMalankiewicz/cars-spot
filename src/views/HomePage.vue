@@ -7,12 +7,14 @@
 </script>
 
 <template>
-  <div class="overflow-hidden bg-bg-primary">
-    <MainNav/>
-    <Hero/>
-    <Headers/>
-    <Galery/>
-    <Seo/>
+  <div>
+    <main class="overflow-hidden bg-light max-w-[1920px] mx-auto">
+      <MainNav/>
+      <Hero/>
+      <Headers/>
+      <Galery/>
+      <Seo/>
+    </main>
   </div>
 
         
