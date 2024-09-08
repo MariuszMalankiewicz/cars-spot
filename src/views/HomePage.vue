@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="overflow-y-hidden bg-white">
+  <div class="overflow-hidden bg-white">
     <MainNav/>
     <Hero/>
     <Headers/>
