@@ -4,7 +4,7 @@ import SecondaryButton from '../Reuseable/Buttons/SecondaryButton.vue'
 </script>
 
 <template>
-    <section class="mt-24 sm:mt-0 h-[825px] py-[30px] sm:py-[120px] gap-[48px] relative">
+    <section class="mt-24 sm:mt-0 h-[650px] sm:h-[825px] py-[30px] sm:py-[120px] gap-[48px] relative">
         <div class="w-[668.05px] h-[659px] hidden sm:block sm:absolute top-[-170px] sm:top-[-80px] right-[3%] sm:right-[-40%] md:right-[-15%] lg:right-[0%] xl:right-[10%] 2xl:right-[5%]">
           <img class="w-[659px] h-[668.05px]" src="../../assets/imgs/Subtract.png">
         </div>
@@ -20,8 +20,8 @@ import SecondaryButton from '../Reuseable/Buttons/SecondaryButton.vue'
           </div>
         </div>
         <div class="w-full sm:w-[700px] lg:w-[900px] xl:w-[1200px] 2xl:w-[1450px] h-[404.37px] absolute top-[45%] right-[0%] overflow-hidden">
-          <img class="min-w-[300px] w-[90%] h-auto sm:w-[1064px] sm:h-[404.37px] absolute top-[30%] sm:top-[0%] right-[0%] sm:right-[-25%] md:right-0" src="../../assets/imgs/Hero.png" alt="hero img 3 cars">
-          <div class="w-[105px] sm:w-[95px] md:w-[105px] lg:w-[130px] xl:w-[156px] h-[85px] rounded-tl-full absolute top-[13%] right-[6%] sm:right-[12%] md:right-[36%] xl:right-[31%] 2xl:right-[26%] bg-[#1F4D60]/30"></div>
+          <img class="min-w-[300px] w-[90%] min-h-[150px] h-auto sm:w-[1064px] sm:h-[404.37px] absolute top-[30%] sm:top-[0%] right-[0%] sm:right-[-25%] md:right-0" src="../../assets/imgs/Hero.png" alt="hero img 3 cars">
+          <!-- <div class="w-[105px] sm:w-[95px] md:w-[105px] lg:w-[130px] xl:w-[156px] h-[85px] rounded-tl-full absolute top-[13%] right-[6%] sm:right-[12%] md:right-[36%] xl:right-[31%] 2xl:right-[26%] bg-[#1F4D60]/30"></div> -->
         </div>
     </section>
 </template>

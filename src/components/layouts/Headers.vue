@@ -1,5 +1,5 @@
 <template>
-  <section id="headers" class="w-[95%] md:w-[90%] mx-auto pt-[80px]">
+  <section id="headers" class="w-[95%] md:w-[90%] mx-auto pt-0 sm:pt-[80px]">
       <div class="flex flex-col gap-[24px]">
         <div>
           <p class="text-start font-robotoCondensed font-normal text-[18px] sm:text-[20px] leading-[32.25px] text-info">Prezentacja firmy</p>
