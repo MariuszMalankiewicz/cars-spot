@@ -1,20 +1,47 @@
 <script setup>
 import Button from './Buttons/PrimaryButton.vue'
+
+import { AnOutlinedMenu } from "@kalimahapps/vue-icons";
+import { ByClose } from "@kalimahapps/vue-icons";
+
+import { ref } from 'vue'
+
+const show = ref(false)
+
+const showToogle = ()=>{
+    show.value = !show.value
+}
 </script>
 
 <template>
     <nav class="py-[16px] relative z-10">
-        <div class="mx-auto w-[95%] lg:w-[90%] xl:w-[80%] px-4 flex flex-wrap items-center justify-center sm:justify-between gap-x-[24px] gap-y-[12px] sm:gap-[10px]">
+        <!-- Mobile -->
+        <div>
+            <div class="sm:hidden bg-light/70 w-full py-4 fixed top-0 flex justify-between shadow-2xl">
+                <img class="ms-6" src="../../assets/imgs/Group 255.png" alt="logo called cars spot">
+            </div>
+            <AnOutlinedMenu class="sm:hidden text-[32px] text-btn-primary cursor-pointer fixed top-4 right-6" v-if="!show" @click="showToogle()"></AnOutlinedMenu>
+            <ByClose class="sm:hidden z-10 text-[28px] text-btn-primary cursor-pointer fixed top-4 right-6" v-if="show" @click="showToogle()"></ByClose>
+            <div class="sm:hidden w-full h-[200px] flex flex-col justify-center gap-[24px] bg-dark fixed top-[65px] left-[0%] z-1 rounded-b-full" v-if="show">
+                <a href="#headers" class="font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-light">Galeria zdjęć</a>
+                <a href="#" class="font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-light">FaQ</a>
+                <a href="#" class="font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-light">Zadzwoń do nas</a>
+            </div>
+        </div>
+
+        <!-- desktop -->
+        <div class="hidden sm:flex sm:mx-auto w-full lg:w-[90%] xl:w-[80%] px-4 justify-betwwen sm:justify-between gap-x-[24px] gap-y-[12px] sm:gap-[10px]">
             <div>
                 <img class="mt-[0.79px] mx-auto sm:mx-0" src="../../assets/imgs/Group 255.png" alt="logo called cars spot">
             </div>
-            <div class="flex gap-[24px] mt-2 mb-2 sm:mt-0 sm:mb-0">
+            <div class="hidden sm:flex items-center gap-[24px] mt-2 mb-2 sm:mt-0 sm:mb-0">
                 <a href="#headers" class="font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-dark">Galeria zdjęć</a>
-                <p class="font-robotoFlex font-normal text-[16px] leading-[24px] text-center cursor-pointer text-dark">FaQ</p>
+                <a href="#" class="font-robotoFlex font-normal text-[16px] leading-[24px] text-center cursor-pointer text-dark">FaQ</a>
             </div>
-            <div class="flex gap-[10px] justify-center sm:justify-end">
+            <div class="hidden sm:flex gap-[10px] justify-center sm:justify-end">
                 <Button>Zadzwoń do nas</Button>
             </div>
+
         </div>
     </nav>
 </template>

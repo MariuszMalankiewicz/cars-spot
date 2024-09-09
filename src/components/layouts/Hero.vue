@@ -4,18 +4,18 @@ import SecondaryButton from '../Reuseable/Buttons/SecondaryButton.vue'
 </script>
 
 <template>
-    <section class="h-[825px] py-[30px] sm:py-[120px] gap-[48px] relative">
+    <section class="mt-24 sm:mt-0 h-[825px] py-[30px] sm:py-[120px] gap-[48px] relative">
         <div class="w-[668.05px] h-[659px] absolute top-[-170px] sm:top-[-80px] right-[3%] sm:right-[-40%] md:right-[-15%] lg:right-[0%] xl:right-[10%] 2xl:right-[5%]">
           <img class="w-[659px] h-[668.05px]" src="../../assets/imgs/Subtract.png">
         </div>
-        <div class="mx-auto w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col gap-[48px] relative z-10">
+        <div class="mx-auto w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col gap-[48px] relative z-1">
           <div class="flex flex-col gap-[32px]">
             <h1 class="max-w-[940px] font-bebaszNeue font-semibold text-[45px] sm:text-[50px] md:text-[60px] lg:text-[70px] xl:text-[76.29px] leading-[83.92px] tracking-[-4px] lg:tracking-[-6px] xl:tracking-[-8px] text-dark uppercase">Sprzedajemy samochody z europy</h1>
             <p class="h-[48px] font-robotoCondensed font-normal text-[16px] leading-[24px] text-dark">Kup komfortowy pojazd, aby każda podróż 
               <span class="block">była wyjątkowym przeżyciem.</span></p>
           </div>
           <div class="h-[47px] flex gap-[12px] sm:gap-[24px]">
-            <PrimaryButton>Zobacz zdjęcia</PrimaryButton>
+            <PrimaryButton ><a href="#headers">Zobacz zdjęcia</a></PrimaryButton>
             <SecondaryButton>Zadzwoń do nas</SecondaryButton>
           </div>
         </div>
