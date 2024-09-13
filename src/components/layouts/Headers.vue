@@ -7,7 +7,7 @@
             <h2 class="w-full font-bebaszNeue font-semibold text-[34px] sm:text-[40px] leading-[48px] uppercase tracking-tighter text-dark">Zobacz naszą Galerię zdjęć</h2>
           </div>
         </div>
-        <nav class="flex gap-[26px] sm:gap-[48px] text-start">
+        <nav class="flex gap-[26px] items-center sm:gap-[48px] text-start">
           <div class="border-b-[1px] border-btn-primary">
             <a class="left-[2px] font-robotoFlex font-semibold text-[12px] sm:text-[15px] leading-[22.5px] tracking-[-2%] text-btn-primary cursor-pointer">Samochody osobowe</a>
           </div>
