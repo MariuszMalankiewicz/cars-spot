@@ -1,5 +1,6 @@
 <script setup>
 import Button from './Buttons/PrimaryButton.vue'
+import Logo from '/src/assets/imgs/logo.png'
 
 import { AnOutlinedMenu } from "@kalimahapps/vue-icons";
 import { ByClose } from "@kalimahapps/vue-icons";
@@ -17,8 +18,8 @@ const showToogle = ()=>{
     <nav class="py-[16px] relative z-10">
         <!-- Mobile -->
         <div>
-            <div class="sm:hidden bg-light/70 w-full py-4 fixed top-0 flex justify-between shadow-2xl">
-                <img class="ms-6" src="../../assets/imgs/Group 255.png" alt="logo called cars spot">
+            <div class="sm:hidden bg-light w-full py-4 fixed top-0 flex justify-between shadow-2xl">
+                <img class="ms-6" :src="Logo" alt="logo called cars spot">
             </div>
             <AnOutlinedMenu class="sm:hidden text-[32px] text-btn-primary cursor-pointer fixed top-4 right-6" v-if="!show" @click="showToogle()"></AnOutlinedMenu>
             <ByClose class="sm:hidden z-10 text-[28px] text-btn-primary cursor-pointer fixed top-4 right-6" v-if="show" @click="showToogle()"></ByClose>
@@ -32,7 +33,7 @@ const showToogle = ()=>{
         <!-- desktop -->
         <div class="hidden sm:flex sm:mx-auto w-full lg:w-[90%] xl:w-[80%] px-4 justify-betwwen sm:justify-between gap-x-[24px] gap-y-[12px] sm:gap-[10px]">
             <div>
-                <img class="mt-[0.79px] mx-auto sm:mx-0" src="../../assets/imgs/Group 255.png" alt="logo called cars spot">
+                <img class="mt-[0.79px] mx-auto sm:mx-0" :src="Logo" alt="logo called cars spot">
             </div>
             <div class="hidden sm:flex items-center gap-[24px] mt-2 mb-2 sm:mt-0 sm:mb-0">
                 <a href="#headers" class="font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-dark">Galeria zdjęć</a>
