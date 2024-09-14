@@ -1,12 +1,15 @@
 <script setup>
-import PrimaryButton from '../Reuseable/Buttons/PrimaryButton.vue'
-import SecondaryButton from '../Reuseable/Buttons/SecondaryButton.vue'
+import PrimaryButton from '/src/components/atoms/PrimaryButton.vue'
+import SecondaryButton from '/src/components/atoms/SecondaryButton.vue'
+import Subtract from '/src/assets/imgs/Subtract.png'
+import Hero from '/src/assets/imgs/Hero.png'
+
 </script>
 
 <template>
     <section class="mt-24 sm:mt-0 h-[650px] sm:h-[825px] py-[30px] sm:py-[120px] gap-[48px] relative">
         <div class="w-[668.05px] h-[659px] hidden md:block sm:absolute top-[-170px] sm:top-[-80px] right-[3%] sm:right-[-40%] md:right-[-15%] lg:right-[0%] xl:right-[10%] 2xl:right-[5%]">
-          <img class="w-[659px] h-[668.05px]" src="../../assets/imgs/Subtract.png">
+          <img class="w-[659px] h-[668.05px]" :src="Subtract" alt="Traces of braking">
         </div>
         <div class="mx-auto w-[95%] lg:w-[90%] xl:w-[80%] flex flex-col gap-[48px] relative z-1">
           <div class="flex flex-col gap-[32px]">
@@ -20,7 +23,7 @@ import SecondaryButton from '../Reuseable/Buttons/SecondaryButton.vue'
           </div>
         </div>
         <div class="w-full sm:w-[700px] lg:w-[900px] xl:w-[1000px] 2xl:w-[1050px] h-[404.37px] absolute top-[45%] right-[0%] overflow-hidden">
-          <img class="min-w-[300px] w-[90%] min-h-[150px] h-auto sm:w-full absolute top-[30%] sm:top-[25%] md:top-[22%] lg:top-[0%] right-[0%] sm:right-[-25%] md:right-[-10%] 2xl:right-[0%]" src="../../assets/imgs/Hero.png" alt="hero img 3 cars">
+          <img class="min-w-[300px] w-[90%] min-h-[150px] h-auto sm:w-full absolute top-[30%] sm:top-[25%] md:top-[22%] lg:top-[0%] right-[0%] sm:right-[-25%] md:right-[-10%] 2xl:right-[0%]" :src="Hero" alt="hero img 3 cars">
           <div class="w-[70px] sm:w-[110px] md:w-[105px] lg:w-[130px] xl:w-[156px] h-[40px] lg:h-[80px] sm:h-[60px] rounded-tl-full absolute top-[35%] sm:top-[33%] md:top-[30%] lg:top-[10%] xl:top-[12%] right-[33%] sm:right-[10%] md:right-[26%] xl:right-[24%] 2xl:right-[35%] bg-[#1F4D60]/30"></div>
         </div>
     </section>

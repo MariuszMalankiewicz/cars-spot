@@ -1,19 +1,17 @@
 <script setup>
-  import MainNav from '../components/Reuseable/MainNav.vue'
-  import Hero from '../components/layouts/Hero.vue'
-  import Headers from '../components/layouts/Headers.vue'
-  import Slider from '../components/Reuseable/Slider.vue'
-  import Seo from '../components/layouts/SEO/Seo.vue'
-  import Footer from '../components/layouts/Footer.vue'
+  import TopNav from '/src/components/organisms/TopNav.vue'
+  import Hero from '/src/components/organisms/Hero.vue'
+  import Galery from '/src/components/organisms/Galery.vue'
+  import Seo from '/src/components/organisms/Seo.vue'
+  import Footer from '/src/components/organisms/Footer.vue'
 </script>
 
 <template>
   <div>
     <main class="overflow-hidden bg-light max-w-[1920px] mx-auto">
-      <MainNav/>
+      <TopNav/>
       <Hero/>
-      <Headers/>
-      <Slider/>
+      <Galery/>
       <Seo/>
       <Footer/>
     </main>

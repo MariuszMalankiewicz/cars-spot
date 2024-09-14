@@ -1,5 +1,5 @@
 <script setup>
-import Button from './Buttons/PrimaryButton.vue'
+import PrimaryButton from '/src/components/atoms/PrimaryButton.vue'
 import Logo from '/src/assets/imgs/logo.png'
 
 import { AnOutlinedMenu } from "@kalimahapps/vue-icons";
@@ -40,7 +40,7 @@ const showToogle = ()=>{
                 <a href="#" class="font-robotoFlex font-normal text-[16px] leading-[24px] text-center cursor-pointer text-dark">FaQ</a>
             </div>
             <div class="hidden sm:flex gap-[10px] justify-center sm:justify-end">
-                <Button>Zadzwoń do nas</Button>
+                <PrimaryButton>Zadzwoń do nas</PrimaryButton>
             </div>
 
         </div>

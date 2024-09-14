@@ -1,5 +1,5 @@
 <script setup>
-import SeoElement from '../SEO/SeoElement.vue'
+import SeoElement from '/src/components/atoms/SeoElement.vue'
 </script>
 
 <template>
