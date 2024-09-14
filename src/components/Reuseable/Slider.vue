@@ -1,12 +1,17 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue';
+import AlfaRomeo from '/src/assets/imgs/alfa-romeo.png';
+import MaseratiGrancabrio from '/src/assets/imgs/maserati-grancabrio.png';
+import AudiA6 from '/src/assets/imgs/audi-a6.png';
+import MercedesAMGR from '/src/assets/imgs/mercedes-amg-r.png';
+import LexusRCF from '/src/assets/imgs/lexus-rc-f.png';
 
 const items = ref([
-  { image: '/src/assets/imgs/Images.png', title: 'Alfa Romeo 4C', description: 'Alfa Romeo 4C to kompaktowy, sportowy samochód produkowany przez włoską markę Alfa Romeo w latach 2013–2020.', content: false },
-  { image: '/src/assets/imgs/Images (1).png', title: 'Maserati Grancabrio', description: 'Maserati GranCabrio to elegancki i luksusowy kabriolet, który łączy w sobie włoską finezję z niesamowitą wydajnością.', content: false },
-  { image: '/src/assets/imgs/Images (2).png', title: 'Audi A6', description: 'Audi A6 to luksusowy samochód klasy średniej-wyższej produkowany przez niemiecką markę Audi.', content: false },
-  { image: '/src/assets/imgs/Images.png', title: 'Alfa Romeo 4C', description: 'Alfa Romeo 4C to kompaktowy, sportowy samochód produkowany przez włoską markę Alfa Romeo w latach 2013–2020.' },
-  { image: '/src/assets/imgs/Images (1).png', title: 'Maserati Grancabrio', description: 'Maserati GranCabrio to elegancki i luksusowy kabriolet, który łączy w sobie włoską finezję z niesamowitą wydajnością.', content: false },
+  { image: AlfaRomeo, title: 'Alfa Romeo 4C', description: 'Alfa Romeo 4C to kompaktowy, sportowy samochód produkowany przez włoską markę Alfa Romeo w latach 2013–2020.', content: false },
+  { image: MaseratiGrancabrio, title: 'Maserati Grancabrio', description: 'Maserati GranCabrio to elegancki i luksusowy kabriolet, który łączy w sobie włoską finezję z niesamowitą wydajnością.', content: false },
+  { image: AudiA6, title: 'Audi A6', description: 'Audi A6 to luksusowy samochód klasy średniej-wyższej produkowany przez niemiecką markę Audi.', content: false },
+  { image: MercedesAMGR, title: 'Mercedes AMG R', description: 'Mercedes-AMG GT R to wysokowydajny sportowy samochód zaprojektowany przez niemiecką markę Mercedes-Benz, a dokładnie przez jej sportowy oddział AMG.' },
+  { image: LexusRCF, title: 'Lexus RC F', description: 'Lexus RC F to sportowe coupé o wysokich osiągach, produkowane przez luksusową markę Lexus, należącą do Toyoty.', content: false },
 ]);
 
 const currentIndex = ref(0);
