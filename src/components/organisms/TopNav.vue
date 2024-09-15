@@ -36,8 +36,8 @@ const showToogle = ()=>{
                 <img class="mt-[0.79px] mx-auto sm:mx-0" :src="Logo" alt="logo called cars spot">
             </div>
             <div class="hidden sm:flex items-center gap-[24px] mt-2 mb-2 sm:mt-0 sm:mb-0">
-                <a href="#headers" class="font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-dark">Galeria zdjęć</a>
-                <a href="#" class="font-robotoFlex font-normal text-[16px] leading-[24px] text-center cursor-pointer text-dark">FaQ</a>
+                <a href="#headers" class="hover:font-semibold transition duration-300 font-robotoFlex font-normal text-[14px] leading-[24px] text-center cursor-pointer text-dark">Galeria zdjęć</a>
+                <a href="#" class="hover:font-semibold transition duration-300 font-robotoFlex font-normal text-[16px] leading-[24px] text-center cursor-pointer text-dark">FaQ</a>
             </div>
             <div class="hidden sm:flex gap-[10px] justify-center sm:justify-end">
                 <PrimaryButton>Zadzwoń do nas</PrimaryButton>
